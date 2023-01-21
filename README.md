@@ -3,7 +3,7 @@
 ## build image
 
 ```bash
-docker build hillwong/node16:latest .
+docker build -t hillwong/node16:latest .
 ```
 
 ## publish image
