@@ -1,4 +1,4 @@
-FROM node:16-alpine3.17
+FROM node:18-alpine3.17
 
 RUN apk add curl python3 && \
   apk add --no-cache libc6-compat && \
